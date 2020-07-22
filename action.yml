@@ -1,0 +1,17 @@
+name: 'Package Version Check'
+description: 'Ensure the version string in package.json has been incremented'
+inputs:
+  github-token:
+    description: 'GitHub Secret Token'
+    required: true
+  package-file:
+    description: 'Path to package.json file'
+    required: true
+    default: 'package.json'
+outputs:
+  is_incremented:
+    description: 'True if incremented and false if not'
+runs:
+  using: 'node12'
+  main: 'index.js'
+
