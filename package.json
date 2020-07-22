@@ -1,0 +1,25 @@
+{
+  "name": "package-version-check",
+  "version": "1.0.0",
+  "description": "GitHub Action for ensuring the version string of package.json has been incremented.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Q4Justice/package-version-check.git"
+  },
+  "keywords": [],
+  "author": "Richard Kiene <rkiene@q4justice.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Q4Justice/package-version-check/issues"
+  },
+  "homepage": "https://github.com/Q4Justice/package-version-check#readme",
+  "dependencies": {
+    "@actions/core": "1.2.4",
+    "@actions/github": "4.0.0",
+    "semver": "^7.3.2"
+  }
+}
