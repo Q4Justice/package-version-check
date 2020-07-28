@@ -17,5 +17,6 @@ True if the version in package.json has been incremented and false otherwise.
 ```yaml
 uses: Q4Justice/package-version-check@v1
 with:
+  github-token: ${{ secrets.GITHUB_TOKEN }}
   package-file: './SomeDirectory/package.json'
 ```
