@@ -1,5 +1,6 @@
 # package-version-check
-GitHub Action for ensuring the version string of package.json has been incremented.
+GitHub Action for ensuring package.json version has been incremented when compared to the base commit for the pull 
+request.
 
 ## Inputs
 ### `github-token`
