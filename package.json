@@ -1,6 +1,6 @@
 {
   "name": "package-version-check",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "GitHub Action for ensuring the version string of package.json has been incremented.",
   "main": "index.js",
   "scripts": {
