@@ -1,4 +1,7 @@
 # package-version-check
+
+⛔️ DEPRECATED: Use [`npm-package-deploy`](https://github.com/Q4Justice/npm-package-deploy) instead.
+
 GitHub Action for ensuring package.json version has been incremented when compared to the base commit for the pull 
 request.
 
